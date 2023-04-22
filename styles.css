@@ -1,4 +1,38 @@
+:root{
+    --main-purple-bg: rgb(32,33,114);
+    --pink-cut: rgb(254,182,151);
+}
 *{
     box-sizing: border-box;
-    color: red;
+    font-family: 'Poppins';
+    font-weight: normal;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: var(--main-purple-bg);
+    padding: 1em 7em;
+    display: flex;
+    justify-content: space-between;
+}
+nav:nth-child(1) ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav:nth-child(1) ul li{
+    list-style-type: none;
+    padding: 0 1.5em;
+
+}
+
+.header{
+    background-color: var(--main-purple-bg);
+    padding: 0 7em;
+}
+
+.cut{
+    background-color: var(--pink-cut);
+    padding: 0 7em;
 }
